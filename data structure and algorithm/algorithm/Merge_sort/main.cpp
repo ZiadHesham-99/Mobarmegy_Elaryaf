@@ -20,12 +20,12 @@ int Merge (int *arr ,int left ,int right)
         else{arr[k++]=temp[j++];}
     }
 
-    if(i<Size/2)
+    while(i<Size/2)
     {
         arr[k++] = temp[i++];
     }
 
-    if(j<Size)
+    while(j<Size)
     {
         arr[k++] = temp [j++];
     }
